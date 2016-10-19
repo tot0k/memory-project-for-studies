@@ -21,7 +21,9 @@ Thomas;60
 -
 Olivier;10.5
 thomas;11.94
+Lisa;13.03
 Alexis;13.64
+Lisa;16.37
 -
 totok;65.62
 Pierre;72.01

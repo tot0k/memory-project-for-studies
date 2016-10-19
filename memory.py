@@ -391,7 +391,7 @@ def showScores(mode,difficulty):
 	scoresCan = Canvas(fen, width = 300, height = 450, bg = "light sky blue")
 	scoresCan.place(x=0,y=0)
 
-	scoreList = readFile("scores.txt")[mode][difficulty]
+	scoreList = readFile()[mode][difficulty]
 	backButton = Button(scoresCan, text = "Retour", command = initScores, bg = activeBg, activebackground=bg,font=font2)
 	scoresCan.create_text(150,20,text=title,font=("BAUHS93",17,'bold'), fill = "red")
 

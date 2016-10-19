@@ -42,7 +42,7 @@ def readFile():
 		return bestScores
 
 	except FileNotFoundError as e:
-		print("error : File not found : {}".format(path))
+		print("Erreur : Le fichier {} n'existe pas. Veuillez télécharger le fichier de scores originel ici : https://goo.gl/zSbbgo".format(path))
 		return None
 
 
@@ -59,7 +59,7 @@ def writeFile(values):
 
 
 	except FileNotFoundError as e:
-		print("error : File not found : {}".format(path))
+		print("Erreur : Le fichier {} n'existe pas. Veuillez télécharger le fichier de scores originel ici : https://goo.gl/zSbbgo".format(path))
 
 
 # Met à jour le tableau de scores
@@ -109,5 +109,3 @@ def isNewBest(mode,difficulty,value):
 			if float(value) < float(best[1]):
 				return True
 	return False
-
-print(readFile())
