@@ -434,4 +434,4 @@ if __name__ == '__main__':
 		fen.mainloop()
 
 	except ImportError as e:
-		print("Erreur : Veuillez placer le fichier fileHandler.py à la racine du dossier dans lequel se trouve memory.py")
+		print("Erreur : le fichier fileHandler.py n'est pas à la racine du dossier dans lequel se trouve memory.py. Vous pouvez le télécharger ici : https://goo.gl/IQzrS0")
